@@ -11,7 +11,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 5%;
+    height: 5vh;
     background-color:#474a4d;
     z-index:2;
     box-sizing:border-box;
@@ -20,7 +20,7 @@ header{
 .head_title{
     color:#ffffff;
     margin-left: 10%;
-    font-size: 2vw;
+    font-size: 3vh;
 }
 
 .link{
@@ -29,29 +29,24 @@ header{
 }
 
 .for_member {
-    margin-left: 45%;
-    font-size: 1.2vw;
-    /*padding-left: 30px;*/
+    /*margin-left: 45%;*/
+    margin-left: 15%;
+    font-size: 2vh;
     color: #ffffff;
     text-decoration: none;
 }
 
 .kibousya {
     margin-left: 5%;
-    font-size: 1.2vw;
-    /*
-    width: 110px;
-    padding-left: 30px;
-    */
+    font-size: 2vh;
     color: #ffffff;
     text-decoration: none;
 }
 
 .member_introduction {
     margin-left: 5%;
-    font-size: 1.2vw;
+    font-size: 2vh;
     /*
-    width: 110px;
     padding-left: 30px;
     */
     color: #ffffff;
@@ -71,8 +66,8 @@ header{
     display: flex;
     position: relative;
     margin: 2px 0;
-    /*height: 100%;*/
-    width: 100%;
+    height: auto;
+    max-width: 100%;
     flex-direction: column;
 }
 
@@ -88,11 +83,9 @@ header{
     left: 40%;
     /*display:inline-block;*/
     text-align:left;
-    /*font-size:60px;*/
-    /*font-size: 450%;*/
     font-size: 4.5vw;
     color:#ffffff;
-    text-shadow: 7px 7px 0 #121212;
+    text-shadow: 0.5vw 0.5vw 0 #121212;
 }
 
 .large{
@@ -116,27 +109,20 @@ header{
 }
 
 footer{
-    height: 300px;
+    height: 20vh;
     background-color:#000000;
     color: #ffffff;;
 }
 
 .foot-title{
     color:#ffffff;
-    margin-left: 10px;
+    margin-left: 2.5%;
+    font-size: 3vh;
 }
 
 p{
     color:#ffffff;
 }
-
-
-
-
-
-
-
-
 
 
 /* ボタン全体 */
@@ -204,11 +190,7 @@ p{
 /* ボタン全体の位置 */
 .sns_btn{
     position: fixed;
-    /*
-    top:700px;
-    right:30px;
-    */
-    top: 75%;
+    top: 70%;
     right: 5%;
     display:flex;
     flex-direction: column;
