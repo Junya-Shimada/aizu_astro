@@ -30,7 +30,7 @@ header{
 
 .for_member {
     /*margin-left: 45%;*/
-    margin-left: 15%;
+    margin-left: 5%;
     font-size: 2vh;
     color: #ffffff;
     text-decoration: none;
@@ -67,15 +67,16 @@ header{
     position: relative;
     margin: 2px 0;
     height: auto;
-    max-width: 100%;
+    width: 100%;
     flex-direction: column;
 }
 
-/*
+
 .background-image1{
     position: relative;
+    height: auto;
 }
-*/
+
 
 .main-title{
     position: absolute;
