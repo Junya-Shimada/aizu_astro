@@ -11,17 +11,24 @@
 </head>
 
 <body>
-    <div id="introduction">
+    <div id="record">
         
         <header>            
-            <h1 class="head_title"><a class="link" href="../index.html">天文部</a></h1>
-            <a class="for_member" href="../for_member/index.html">部員向け</a>
-            <a class="kibousya" href="https://docs.google.com/forms/d/1yEKQDrH2Rg3jT3xBfc6GRevokw228_ZYlrcY2LzV1sw/edit">入部希望</a>
-            <a class="member_introduction" href="../member_introduction/index.html">部員紹介</a>
+            <h1 class="head_title"><a class="link" href="../index.html">天文部</a></h1> 
+                <div class="hamburger_menu">
+                <button class ="hamburger_btn" @click= "hamburger = !hamburger">Menu</button>
+                <template v-if="hamburger">
+                    <ul class="menu_list">
+                        <a class="for_member" href="../for_member/index.html">部員向け</a><br>
+                        <a class="kibousya" :href="url_kibousya">入部希望</a><br>
+                        <a class="record" href="index.html">活動記録</a><br>
+                    </ul>
+                </template>                  
+            </div>
         </header>
 
         <div class="main">
-            <h1 class="main_title">メンバー紹介</h1>
+            <h1 class="main_title">活動記録</h1>
             <div class="sns_btn">
                 <a href="https://instagram.com/aizu_astro" class="flowbtn8 insta_btn2"><i class="fab fa-instagram"></i></a>
                 <a href="https://twitter.com/aizu_astro" class="flowbtn8 fl_tw2"><i class="fab fa-twitter"></i></a>

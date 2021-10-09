@@ -1,5 +1,5 @@
 new Vue({
-    el: '#top',
+    el: '#record',
     data: {
         hamburger: false,
         url_twitter: 'https://twitter.com/aizu_astro',
